@@ -10,7 +10,8 @@ Code used in second part of the paper, creating mock strains and uncharged templ
 * Port functions to Fortran (or C) and include them to the notebook using f2py (or C equivalent). Be sure that your noise spectral density comes out right. You can find it by Wench decomposition. Be also sure that you are wary of Fourier conventions, especially in constructing your LIGO-noise.
 * Parallelise other parts of the code than the chirp bias finder. As of now, everything beneath the chirp mass bias finder runs in serial code.
 
-\hline
+-----------------
+
 Both codes can be run by using jupyter notebook, or jupyter lab.
 
 For any questions or comment on my code or the paper, you can reach me on mailto:oyvind.christiansen@astro.uio.no
