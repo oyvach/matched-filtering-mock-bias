@@ -1,5 +1,5 @@
-# matched-filtering-mock-bias
-Containing code used in our article "Charged Black Hole Mergers: Orbit Circularisation and Chirp Mass Bias"
+# Charged Black Hole Mergers: Orbit Circularisation and Chirp mass Bias
+Containing code used in our article with the above title.
 
 ## OrbitEvol.ipynb
 Code used in first part of the paper, plotting analytical solutions and performing numerics for evolcing orbital parameters under back-reaction of the electromagnetic emission. If you want to change the initial conditions/step-size/other, be sure that the code stops evolving a parameter once it reaches zero within some tolerance for these new choices. Plots used in paper produced by the code as it is.
