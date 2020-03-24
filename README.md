@@ -7,7 +7,7 @@ Code used in first part of the paper, plotting analytical solutions and performi
 ## MatchedFilterMock.ipynb
 Code used in second part of the paper, creating mock strains and uncharged templates, matching them with each other to study bias in chirp mass induced by charged signals. Logic in code described in paper. Based on tutorial from LIGO open science center found [here](https://www.gw-openscience.org/GW150914data/LOSC_Event_tutorial_GW150914.html#Matched-filtering-to-find-the-signal). Plots used in paper produced by the code as it is. Beware of long runtimes. If you want to use this code and runtimes are an issue, we suggest following optimalisations:
 * Match the initial phase analytically. This is partly described in Maggiore vol 1 page 389.
-* Port functions to Fortran (or C) and include them to the notebook using f2py (or C equivalent). Be sure that your noise spectral density comes out right. You can find it by Wench decomposition. Be also sure that you are wary of Fourier conventions, especially in constructing your LIGO-noise.
+* Port functions to Fortran (or C) and include them to the notebook using f2py (or C equivalent). Be sure that your noise spectral density comes out right. You can find it by Welch decomposition. Be also sure that you are wary of Fourier conventions, especially in constructing your LIGO-noise.
 * Parallelise other parts of the code than the chirp bias finder. As of now, everything beneath the chirp mass bias finder runs in serial code.
 
 -----------------
