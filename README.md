@@ -12,7 +12,7 @@ Code used in second part of the second version of the paper, creating mock strai
 * Parallelise other parts of the code than the chirp bias finder. As of now, everything beneath the chirp mass bias finder runs in serial code.
 
 ## MatchedFilterMock.ipynb
-Code used for in the second part of the paper for the first version of the paper. Kept as documentation. However, MatchedFilterMockv2 is recommended to use instead, due to various improvements (listed in the beginning). TLDR: Do not use this.
+Code used in the second part of the first version of the paper. Kept as documentation. However, MatchedFilterMockv2 is recommended to use instead, due to various improvements (listed in the beginning of the file). TLDR: Do not use this.
 
 -----------------
 
